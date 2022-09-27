@@ -4,7 +4,7 @@ const ProfileLink = (props) => {
   return (
     <div className="flex flex-row justify-evenly my-2">
       <a
-        href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to={props.email}`}
+        href={`https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=${props.email}`}
         className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400"
       >
         <img

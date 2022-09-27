@@ -1,13 +1,13 @@
 import React from "react";
 
-const ProfileImage = () => {
+const ProfileImage = (props) => {
   return (
     <div
       className="rounded-full border-4 border-blue-600 w-32 h-32 mx-16 my-5 flex flex-col hover:border-orange-400"
       id="image_container"
     >
       <img
-        src="https://i.pravatar.cc/150"
+        src={props.image || "https://avatars.dicebear.com/api/bottts/pic.svg"}
         alt="Profile"
         className="rounded-full"
       />
