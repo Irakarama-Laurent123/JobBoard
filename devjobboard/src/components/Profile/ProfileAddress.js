@@ -1,9 +1,9 @@
 import React from "react";
 
-const ProfileAddress = () => {
+const ProfileAddress = (props) => {
   return (
     <div className="w-full h-16 flex items-center justify-center text-xl font-semibold hover:bg-blue-100">
-      Kigali, Rwanda
+      {props.location}
     </div>
   );
 };
